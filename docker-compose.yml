@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   mongodb:
-    container_name: moneyout-mongodb
+    container_name: mongodb-with-replicas
     build: ./docker/mongodb_replica
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
